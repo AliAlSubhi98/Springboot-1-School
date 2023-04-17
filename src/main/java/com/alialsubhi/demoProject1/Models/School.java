@@ -13,7 +13,7 @@ import javax.persistence.*;
 public class School extends BaseEntity{
 
 
-    @Id
+    @Id // persistence
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Integer id;
 

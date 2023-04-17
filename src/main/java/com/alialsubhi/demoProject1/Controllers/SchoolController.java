@@ -17,7 +17,8 @@ public class SchoolController {
 
     // http://localhost:8080/school/getAll
     @RequestMapping(value = "getAll", method = RequestMethod.GET)
-    public List<School> getListSchools(){
-        return schoolService.getListSchools();
+    public List<School> getAllSchools(){
+
+        return schoolService.getAllSchools();
     }
 }

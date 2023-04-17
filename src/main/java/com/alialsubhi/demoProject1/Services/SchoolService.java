@@ -13,7 +13,8 @@ public class SchoolService {
     @Autowired
     SchoolRepository schoolRepository; // reference not an object.
 
-    public List<School> getListSchools(){
+    public List<School> getAllSchools(){
+
         return schoolRepository.findAll();
     }
 }
